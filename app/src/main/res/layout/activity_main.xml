@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.sch.smktelkom_mlg.www.fragment.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:text="Pilihan Fragment"
+        android:textColor="#FF22"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/multiple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginStart="-16dp"
+        android:layout_marginTop="102dp"
+        android:onClick="multiple"
+        android:text="Multipel Fragment" />
+
+    <Button
+        android:id="@+id/FragmentPager"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/multiple"
+        android:layout_alignStart="@+id/multiple"
+        android:layout_marginStart="-9dp"
+        android:layout_marginTop="22dp"
+        android:onClick="multiple"
+        android:text="Fragment View Pager" />
+
+    <Button
+        android:id="@+id/FragmentDrawer"
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FragmentPager"
+        android:layout_alignStart="@+id/multiple"
+        android:layout_marginStart="-18dp"
+        android:layout_marginTop="21dp"
+        android:onClick="multiple"
+        android:text="Fragment Menu Drawer" />
+
+</RelativeLayout>
